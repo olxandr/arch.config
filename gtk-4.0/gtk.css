@@ -1,0 +1,5 @@
+/**
+ * GTK 4 reads the theme configured by gtk-theme-name, but ignores it.
+ * It does however respect user CSS, so import the theme from here.
+**/
+@import url("file:///nix/store/fmz906v27x6mv212s7ih661xwis527m1-kanagawa-gtk-theme-0-unstable-2023-07-03/share/themes/Kanagawa-BL/gtk-4.0/gtk.css");

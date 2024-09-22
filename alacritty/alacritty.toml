@@ -1,0 +1,25 @@
+import = ["/home/olexandr/.config/alacritty/kanagawa_wave.toml"]
+[colors]
+transparent_background_colors = true
+
+[font]
+size = 12.0
+[font.normal]
+# family = "RobotoMono Nerd Font"
+
+[font.offset]
+x = 0
+y = 0
+
+[mouse]
+hide_when_typing = true
+
+[selection]
+save_to_clipboard = true
+
+[window]
+opacity = 0.93
+
+[window.padding]
+x = 5
+y = 5

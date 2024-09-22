@@ -1,0 +1,23 @@
+theme = "kanagawa"
+[editor]
+completion-timeout = 5
+line-number = "relative"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.lsp]
+display-messages = true
+
+[editor.soft-wrap]
+enable = true
+
+[keys.normal]
+C-p = "signature_help"
+C-s = ":update"
+C-w = "save_selection"
+
+[keys.normal.space]
+F = "file_picker_in_current_buffer_directory"

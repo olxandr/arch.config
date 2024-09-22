@@ -1,0 +1,99 @@
+@import "mocha.css";
+
+* {
+  font-family: RobotoMono Nerd Font;
+  font-size: 14px;
+  font-weight: bold;
+  min-height: 0;
+}
+
+#waybar {
+  background: rgb(31, 31, 40);
+  color: @text;
+}
+
+#workspaces {
+  margin-left: 1rem;
+}
+
+#workspaces button {
+  color: @lavender;
+}
+
+#workspaces button.active {
+  color: @sky;
+}
+
+#workspaces button:hover {
+  color: @sapphire;
+}
+
+#custom-music,
+#tray,
+#backlight,
+#clock,
+#battery,
+#pulseaudio,
+#custom-lock,
+#custom-power,
+#memory,
+#language {
+  /*background-color: @surface0;*/
+  padding: 0 0.5rem;
+  margin: 0px 0;
+}
+
+#clock {
+  color: @blue;
+}
+
+#battery {
+  color: @green;
+  margin-left: 0.5rem;
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @red;
+}
+
+#backlight {
+  color: @yellow;
+  margin-left: -0.5rem;
+}
+
+#language {
+  color: @peach;
+  margin-right: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+#memory {
+  color: @sky;
+  margin-left: 0.5rem;
+}
+
+#pulseaudio {
+  color: @maroon;
+}
+
+#custom-music {
+  color: @mauve;
+}
+
+#custom-lock {
+  color: @lavender;
+}
+
+#custom-power {
+  margin-right: 1rem;
+  color: @red;
+}
+
+#tray {
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
