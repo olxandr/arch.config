@@ -24,7 +24,7 @@ window#waybar {
 #workspaces button {
   margin-top: 5px;
   transition: none;
-  color: #957FB8;
+  color: #d0dbdb;
   background: #181820;
   margin-right: 10px;
   border-radius: 25%;
@@ -54,7 +54,7 @@ window#waybar {
 #custom-distro-icon,
 #memory,
 #battery {
-  color: #957FB8;
+  color: #d0dbdb;
   background: #181820;
 
   margin-right: 10px;
@@ -99,7 +99,7 @@ window#waybar {
 #custom-spotify {
   padding-left: 15px;
   padding-right: 15px;
-  font-weight: normal;
+  font-weight: bold;
   background: radial-gradient(circle, rgba(203, 166, 247, 1) 0%, rgba(193, 168, 247, 1) 12%, rgba(249, 226, 175, 1) 19%, rgba(189, 169, 247, 1) 20%, rgba(182, 171, 247, 1) 24%, rgba(198, 255, 194, 1) 36%, rgba(177, 172, 247, 1) 37%, rgba(170, 173, 248, 1) 48%, rgba(255, 255, 255, 1) 52%, rgba(166, 174, 248, 1) 52%, rgba(160, 175, 248, 1) 59%, rgba(148, 226, 213, 1) 66%, rgba(155, 176, 248, 1) 67%, rgba(152, 177, 248, 1) 68%, rgba(205, 214, 244, 1) 77%, rgba(148, 178, 249, 1) 78%, rgba(144, 179, 250, 1) 82%, rgba(180, 190, 254, 1) 83%, rgba(141, 179, 250, 1) 90%, rgba(137, 180, 250, 1) 100%);
   background-size: 400% 800%;
   color: black;
