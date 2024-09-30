@@ -1,18 +1,9 @@
 [[language]]
-auto-format = true
-name = "nix"
-
-[language.formatter]
-command = "nixfmt"
-
-[[language]]
-language-servers = ["gopls", "golangci-lint-lsp"]
-name = "go"
-
-[language.formatter]
-command = "goimports"
-
-[[language]]
 file-types = ["html", "gotmpl", "tmpl"]
-language-servers = ["vscode-html-language-server", "tailwindcss-ls"]
+language-servers = ["vscode-html-language-server"]
 name = "html"
+
+[[language]]
+name = "go"
+formatter = { command = "goimports" }
+auto-format = true

@@ -14,10 +14,23 @@ display-messages = true
 [editor.soft-wrap]
 enable = true
 
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+center = ["version-control"]
+
 [keys.normal]
 C-p = "signature_help"
-C-s = ":update"
 C-w = "save_selection"
 
 [keys.normal.space]
 F = "file_picker_in_current_buffer_directory"
+s = ":update"
+S = ":write-all"
+q = ":q"
+Q = ":qa"
+c = ":buffer-close"

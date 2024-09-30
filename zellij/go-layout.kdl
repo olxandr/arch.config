@@ -1,0 +1,16 @@
+layout {
+    pane size=1 {
+        plugin location="zellij:tab-bar"
+    }    
+    pane split_direction="vertical" {
+        pane split_direction="horizontal"{
+            pane
+            pane stacked=true {
+                pane cwd="/home/olexandr/golang/urlShortener"
+                pane cwd="/home/olexandr/golang/urlShortener"
+            }
+        }
+    pane size=135 cwd="~/golang/urlShortener" command="hx"
+    }   
+}
+

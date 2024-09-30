@@ -1,0 +1,11 @@
+layout {
+    pane_template name="vertical-sandwich" split_direction="vertical" {
+        pane
+        children
+        pane
+    }
+    vertical-sandwich {
+        pane command="top"
+    }
+}
+

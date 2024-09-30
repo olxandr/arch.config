@@ -1,0 +1,22 @@
+theme "kanagawa"
+pane_frames false
+default_layout "disable-status-bar"
+
+ui {
+    pane_frames {
+        rounded_corners true
+    }
+}
+
+keybinds {
+	shared_except "locked" {
+        bind "Alt [" { GoToPreviousTab; }
+        bind "Alt ]" { GoToNextTab; }
+        bind "Alt Left" { PreviousSwapLayout; }
+        bind "Alt Right" { NextSwapLayout; }
+        bind "Alt h" { MoveFocus "Left"; }
+        bind "Alt l" { MoveFocus "Right"; }
+        bind "Alt j" { MoveFocus "Down"; }
+        bind "Alt k" { MoveFocus "Up"; }
+    }
+}
