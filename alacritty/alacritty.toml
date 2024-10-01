@@ -4,13 +4,11 @@ import = ["/home/olexandr/.config/alacritty/kanagawa_wave.toml"]
 transparent_background_colors = true
 
 [colors.primary]
-foreground = "#95a6b8"
 
 [font]
 size = 11.0
 
 [font.normal]
-# family = "JetBrainsMono Nerd Font"
 family = "Hack Nerd Font Mono"
 
 [mouse]

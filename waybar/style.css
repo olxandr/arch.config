@@ -24,10 +24,10 @@ window#waybar {
 #workspaces button {
   margin-top: 5px;
   transition: none;
-  color: #d0dbdb;
+  color: #bbb6d1;
   background: #181820;
   margin-right: 10px;
-  border-radius: 25%;
+  border-radius: 9px;
 
   /* box-shadow: rgba(0, 0, 0, 0.116) 2px 2px 5px 2px; */
   /* padding-top: 2px; */
@@ -39,7 +39,7 @@ window#waybar {
 
 #workspaces button.active {
   color: black;
-  border-radius: 25%;
+  border-radius: 9px;
 
   background: radial-gradient(circle, rgba(203, 166, 247, 1) 0%, rgba(193, 168, 247, 1) 12%, rgba(249, 226, 175, 1) 19%, rgba(189, 169, 247, 1) 20%, rgba(182, 171, 247, 1) 24%, rgba(198, 255, 194, 1) 36%, rgba(177, 172, 247, 1) 37%, rgba(170, 173, 248, 1) 48%, rgba(255, 255, 255, 1) 52%, rgba(166, 174, 248, 1) 52%, rgba(160, 175, 248, 1) 59%, rgba(148, 226, 213, 1) 66%, rgba(155, 176, 248, 1) 67%, rgba(152, 177, 248, 1) 68%, rgba(205, 214, 244, 1) 77%, rgba(148, 178, 249, 1) 78%, rgba(144, 179, 250, 1) 82%, rgba(180, 190, 254, 1) 83%, rgba(141, 179, 250, 1) 90%, rgba(137, 180, 250, 1) 100%);
   background-size: 600% 200%;
@@ -54,11 +54,11 @@ window#waybar {
 #custom-distro-icon,
 #memory,
 #battery {
-  color: #d0dbdb;
+  color: #bbb6d1;
   background: #181820;
 
   margin-right: 10px;
-  border-radius: 10px;
+  border-radius: 9px;
 
   padding-left: 13px;
   padding-right: 13px;
