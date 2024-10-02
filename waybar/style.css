@@ -1,6 +1,6 @@
 * {
   min-height: 0;
-  font-family: "Ha Ne Mo";
+  font-family: "Hack Nerd Font", monospace;
   font-size: 13px;
 }
 
@@ -24,7 +24,7 @@ window#waybar {
 #workspaces button {
   margin-top: 5px;
   transition: none;
-  color: #bbb6d1;
+  color: #b1c6e3;
   background: #181820;
   margin-right: 10px;
   border-radius: 9px;
@@ -54,7 +54,7 @@ window#waybar {
 #custom-distro-icon,
 #memory,
 #battery {
-  color: #bbb6d1;
+  color: #b1c6e3;
   background: #181820;
 
   margin-right: 10px;

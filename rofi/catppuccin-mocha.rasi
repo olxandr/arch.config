@@ -1,15 +1,15 @@
 * {
-    bg-col:  #1e1e2e;
+    bg-col:  #16161D;
     bg-col-light: #1e1e2e;
     border-col: #1e1e2e;
     selected-col: #1e1e2e;
-    blue: #89b4fa;
-    fg-col: #cdd6f4;
-    fg-col2: #f38ba8;
+    blue: #252535;
+    fg-col: #7E9CD8;
+    fg-col2: #b8b4d0;
     grey: #6c7086;
 
     width: 600;
-    font: "RobotoMono Nerd Font 14";
+    font: "Hack Nerd Font";
 }
 
 element-text, element-icon , mode-switcher {
@@ -57,9 +57,9 @@ entry {
 
 listview {
     border: 0px 0px 0px;
-    padding: 6px 0px 0px;
+    padding: 6px 11px 0px;
     margin: 10px 0px 0px 20px;
-    columns: 2;
+    columns: 3;
     lines: 5;
     background-color: @bg-col;
 }
