@@ -24,7 +24,7 @@ window#waybar {
 #workspaces button {
   margin-top: 5px;
   transition: none;
-  color: #b1c6e3;
+  color: #bfd5d9;
   background: #181820;
   margin-right: 10px;
   border-radius: 9px;
@@ -54,7 +54,7 @@ window#waybar {
 #custom-distro-icon,
 #memory,
 #battery {
-  color: #b1c6e3;
+  color: #bfd5d9;
   background: #181820;
 
   margin-right: 10px;

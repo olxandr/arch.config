@@ -1,9 +1,4 @@
-[[language]]
-file-types = ["html", "gotmpl", "tmpl"]
-language-servers = ["vscode-html-language-server"]
-name = "html"
-
-[[language]]
-name = "go"
-formatter = { command = "goimports" }
+[[language]] 
+name = "go" 
+formatter = { command = "goimports" } 
 auto-format = true
