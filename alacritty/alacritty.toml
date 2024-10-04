@@ -4,8 +4,9 @@ import = ["/home/olexandr/.config/alacritty/kanagawa_wave.toml"]
 transparent_background_colors = true
 
 [font]
-size = 10.5
+size = 11
 normal = { family = "Hack Nerd Font Mono", style = "Regular" }
+offset = { x = 0, y = 2 }
 
 [mouse]
 hide_when_typing = true
