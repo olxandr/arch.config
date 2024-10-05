@@ -8,9 +8,6 @@ insert = "bar"
 normal = "block"
 select = "underline"
 
-[editor.lsp]
-display-messages = true
-
 [editor.soft-wrap]
 enable = true
 
@@ -26,15 +23,11 @@ left = ["read-only-indicator", "file-name", "file-modification-indicator"]
 center = ["mode", "spinner"]
 right = ["diagnostics", "workspace-diagnostics", "version-control", "spacer"]
 
-[keys.normal]
-C-p = "signature_help"
-C-w = "save_selection"
-
 [keys.normal.space]
 F = "file_picker_in_current_buffer_directory"
 s = ":update"
 S = ":write-all"
-  q = ":q"
+q = ":q"
 Q = ":q!"
 c = ":buffer-close"
 C = ":buffer-close!"
