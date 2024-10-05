@@ -3,10 +3,10 @@ theme = "kanagawa"
 completion-timeout = 5
 line-number = "relative"
 
-[editor.cursor-shape]
-insert = "bar"
-normal = "block"
-select = "underline"
+# [editor.cursor-shape]
+# insert = "bar"
+# normal = "block"
+# select = "underline"
 
 [editor.soft-wrap]
 enable = true
@@ -15,13 +15,13 @@ enable = true
 hidden = false
 
 [editor.statusline]
-mode.normal = "NORMAL"
-mode.insert = "INSERT"
-mode.select = "VISUAL"
+# mode.normal = "NORMAL"
+# mode.insert = "INSERT"
+# mode.select = "VISUAL"
 
-left = ["read-only-indicator", "file-name", "file-modification-indicator"]
-center = ["mode", "spinner"]
-right = ["diagnostics", "workspace-diagnostics", "version-control", "spacer"]
+left = ["mode", "read-only-indicator", "file-name", "file-modification-indicator"]
+center = ["diagnostics", "workspace-diagnostics"]
+right = ["spinner", "version-control"]
 
 [keys.normal.space]
 F = "file_picker_in_current_buffer_directory"
