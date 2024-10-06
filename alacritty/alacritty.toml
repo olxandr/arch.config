@@ -15,4 +15,4 @@ hide_when_typing = true
 save_to_clipboard = true
 
 [window]
-opacity = 0.90
+# opacity = 0.93

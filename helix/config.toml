@@ -1,26 +1,18 @@
 theme = "kanagawa"
+
 [editor]
 completion-timeout = 5
 line-number = "relative"
-
-# [editor.cursor-shape]
-# insert = "bar"
-# normal = "block"
-# select = "underline"
 
 [editor.soft-wrap]
 enable = true
 
 [editor.file-picker]
-hidden = false
+hidden = true
 
 [editor.statusline]
-# mode.normal = "NORMAL"
-# mode.insert = "INSERT"
-# mode.select = "VISUAL"
-
-left = ["mode", "read-only-indicator", "file-name", "file-modification-indicator"]
-center = ["diagnostics", "workspace-diagnostics"]
+left = ["mode", "read-only-indicator", "file-name", "file-modification-indicator", "spacer", "diagnostics"]
+center = ["workspace-diagnostics",]
 right = ["spinner", "version-control"]
 
 [keys.normal.space]
