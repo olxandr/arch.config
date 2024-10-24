@@ -1,10 +1,7 @@
 {
     "layer": "top", 
     "position": "top", 
-    "height": 1,  
-    // "spacing": 1, 
-    "margin-top": -2,
-    "margin-bottom": -11,
+    "padding-bottom": 2,
 
     "modules-left": [
         // "custom/distro-icon",

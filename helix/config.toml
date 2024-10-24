@@ -1,4 +1,4 @@
-theme = "kanagawa"
+theme = "autumn_night"
 
 [editor]
 completion-timeout = 5
@@ -23,3 +23,7 @@ q = ":q"
 Q = ":q!"
 c = ":buffer-close"
 C = ":buffer-close!"
+
+[keys.normal]
+A-l = ":buffer-next"
+A-h = ":buffer-previous"
