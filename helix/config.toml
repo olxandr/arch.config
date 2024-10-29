@@ -3,6 +3,7 @@ theme = "autumn_night"
 [editor]
 completion-timeout = 5
 line-number = "relative"
+auto-info = false
 
 [editor.soft-wrap]
 enable = true

@@ -9,16 +9,16 @@
         // "wlr/taskbar"
     ],
 
-    "modules-center": [
-        "custom/spotify",
-    ],
+    // "modules-center": [
+        // "custom/spotify",
+    // ],
 
     "modules-right": [
         "wireplumber", 
         "memory",
         "network", 
         // "cpu",
-        // "battery",
+        "battery",
         "clock",
     ],
 
@@ -39,19 +39,19 @@
 
     "wireplumber": {
         "format": "{icon} {volume}%",
-        "format-icons": ["", "", "󰕾", ""],
-        "tooltip": false,
+        "format-muted": "󰸈 0%",
+        "format-icons": ["", "", ""],
     },
 
     "battery": {
-        "format": "{icon}  {capacity}%",
-        "format-icons": ["", "", "", "", ""],
-        "tooltip": false,
+        "format": "{icon} {capacity}%",
+        "format-icons": ["󰁺", "󰁼", "󰁾", "󰂀", "󰂂", "󰁹"],
     },
 
     "clock": {
         "format-alt": "{:%m-%d-%Y}",
         "tooltip": false,
+        // "interval": 1,
     },
 
     "cpu": {
@@ -61,13 +61,14 @@
     },
 
     "memory": {
-        "format": " {}%"
+        "format": " {}%",
+        "interval": 3,
     },
     
     "network": {
         // "interface": "wlp2s0", // (Optional) To force the use of this interface
         "on-click": "alacritty -e nmtui",
-        "format-wifi": "  {essid} ",
+        "format-wifi": "  Wi-Fi",
         "format-ethernet": "󰈁 Ethernet",
         "format-disconnected": "󰈂 (No IP)",
         "tooltip": false,
